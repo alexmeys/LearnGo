@@ -1,2 +1,2 @@
 # LearnGo
-Just to learn Go and Git
+Just to learn Go 
