@@ -19,9 +19,12 @@ func main() {
 }
 
 func foo() {
-	fmt.Println("...Foo is staring up...")
+	fmt.Println("...Foo is staring up...", 42, true)
+
 }
 
 func bar() {
-	fmt.Println("The end...")
+	n, err := fmt.Println("The end...")
+	fmt.Println("Number of bytes:", n)
+	fmt.Println("Errors encountered:", err)
 }
