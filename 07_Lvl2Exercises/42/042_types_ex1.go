@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	fmt.Println("")
+	a := 10
+	fmt.Printf("%v\t%b\t%#x\n", a, a, a)
 }
