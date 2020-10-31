@@ -1,2 +1,2 @@
 # LearnGo
-Just to learn Go 
+Just to learn Go, nothing special
