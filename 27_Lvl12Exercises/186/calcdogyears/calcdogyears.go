@@ -2,6 +2,6 @@
 package calcdogyears
 
 // CalcDogYears function converts 6 human years to dog years
-func CalcDogYears() float64 {
-	return 6 * 7
+func CalcDogYears(n int) int {
+	return n * 7
 }
