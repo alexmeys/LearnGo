@@ -13,6 +13,7 @@ func main() {
 		"http://stackoverflow.com",
 		"http://amazon.com",
 		"http://golang.org",
+		"http://www.doesnotexistsreally.be",
 	}
 
 	c := make(chan string)
